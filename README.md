@@ -8,7 +8,7 @@ An `UILabel` with a read more hyperlink text at the end of text.
 
 ## Usage
 
-Using as a normal UILabel
+Using as a normal `UILabel`
 
 ``` Objective-C
 
@@ -22,7 +22,7 @@ lbContent.numberOfLines = 3;
 
 [lbContent updateLayout];
 
-/// listen tap on truncation token event
+/// listen to tap on truncation token event
 
 [lbContent listenTappedOnTruncationToken:^{
   // do something
