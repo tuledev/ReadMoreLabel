@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-9Z-Shs" customClass="ReadMoreLabel">
+                                <rect key="frame" x="48" y="24" width="279" height="20.5"/>
+                                <string key="text">A wiki is run using wiki software, otherwise known as a wiki engine. A wiki engine is a type of content management system, but it differs from most other such systems, including blog software, in that the content is created without any defined owner or leader, and wikis have little implicit structure, allowing structure to emerge according to the needs of the users.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKz-1W-kN3" customClass="ReadMoreLabel">
+                                <rect key="frame" x="48" y="56.5" width="279" height="20.5"/>
+                                <string key="text">A wiki is run using wiki software, otherwise known as a wiki engine. A wiki engine is a type of content management system, but it differs from most other such systems, including blog software, in that the content is created without any defined owner or leader, and wikis have little implicit structure, allowing structure to emerge according to the needs of the users.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0S-wx-Yw4" customClass="ReadMoreLabel">
+                                <rect key="frame" x="48" y="89" width="279" height="20.5"/>
+                                <string key="text">A wiki is run using wiki software, otherwise known as a wiki engine. A wiki engine is a type of content management system, but it differs from most other such systems, including blog software, in that the content is created without any defined owner or leader, and wikis have little implicit structure, allowing structure to emerge according to the needs of the users.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAK-gY-IDo" customClass="ReadMoreLabel">
+                                <rect key="frame" x="48" y="121.5" width="279" height="20.5"/>
+                                <string key="text">A wiki is run using wiki software, otherwise known as a wiki engine. A wiki engine is a type of content management system, but it differs from most other such systems, including blog software, in that the content is created without any defined owner or leader, and wikis have little implicit structure, allowing structure to emerge according to the needs of the users.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uAK-gY-IDo" firstAttribute="leading" secondItem="S0S-wx-Yw4" secondAttribute="leading" id="0d3-kI-x3Z"/>
+                            <constraint firstItem="dRV-9Z-Shs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="1Ej-SD-C2R"/>
+                            <constraint firstItem="dRV-9Z-Shs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="39e-3X-poy"/>
+                            <constraint firstItem="wKz-1W-kN3" firstAttribute="trailing" secondItem="dRV-9Z-Shs" secondAttribute="trailing" id="7OR-ox-M7K"/>
+                            <constraint firstItem="S0S-wx-Yw4" firstAttribute="top" secondItem="wKz-1W-kN3" secondAttribute="bottom" constant="12" id="9Kt-Wd-NSO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dRV-9Z-Shs" secondAttribute="trailing" constant="32" id="EsZ-Kq-jBc"/>
+                            <constraint firstItem="wKz-1W-kN3" firstAttribute="top" secondItem="dRV-9Z-Shs" secondAttribute="bottom" constant="12" id="M1j-0i-UAF"/>
+                            <constraint firstItem="uAK-gY-IDo" firstAttribute="trailing" secondItem="S0S-wx-Yw4" secondAttribute="trailing" id="Qt8-sm-F0q"/>
+                            <constraint firstItem="dRV-9Z-Shs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="24" id="TvW-bI-rTR"/>
+                            <constraint firstItem="S0S-wx-Yw4" firstAttribute="trailing" secondItem="wKz-1W-kN3" secondAttribute="trailing" id="iIV-zf-znQ"/>
+                            <constraint firstItem="S0S-wx-Yw4" firstAttribute="leading" secondItem="wKz-1W-kN3" secondAttribute="leading" id="uCZ-3T-jYu"/>
+                            <constraint firstItem="uAK-gY-IDo" firstAttribute="top" secondItem="S0S-wx-Yw4" secondAttribute="bottom" constant="12" id="vpQ-Aw-bdI"/>
+                            <constraint firstItem="wKz-1W-kN3" firstAttribute="leading" secondItem="dRV-9Z-Shs" secondAttribute="leading" id="yXP-pd-f6i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lbContent" destination="dRV-9Z-Shs" id="0Fh-HK-x4H"/>
+                        <outlet property="lbContent2" destination="wKz-1W-kN3" id="lht-2P-jNv"/>
+                        <outlet property="lbContent3" destination="S0S-wx-Yw4" id="gMz-od-Vvn"/>
+                        <outlet property="lbContent4" destination="uAK-gY-IDo" id="FBi-GJ-9T8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
